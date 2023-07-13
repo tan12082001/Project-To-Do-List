@@ -39,6 +39,30 @@ main {
   height: 24px;
 }
 
+.list-adding {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid var(--bottom-border-color);
+}
+
+.list-adding:hover {
+  background: #e4e4ff;
+  border: 1px solid #f4f5cf;
+}
+
+#add-new-list {
+  width: 100%;
+  padding: 4px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+#add-new-list::placeholder {
+  font-style: italic;
+}
+
 ul#to-do-list {
   width: 100%;
   display: flex;
@@ -54,9 +78,45 @@ li.each-task {
   border-bottom: 1px solid var(--bottom-border-color);
 }
 
+.check-tag {
+  display: flex;
+  gap: 12px;
+  width: 80%;
+}
+
+input.task-desc {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.funs {
+  display: flex;
+  align-items: center;
+}
+
+.delbin {
+  background: none;
+  outline: none;
+  border: none;
+}
+
 .three-dots {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.three-dots:hover {
+  transform: scale(1.1);
 }
 
 .clear-all {
