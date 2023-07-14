@@ -1,5 +1,5 @@
-<div align="center">
-  <h2 style='font-style: italic'><b>Tanmayi's TO-DO-LIST</b></h2>
+<div align="center">  
+  <h2><b>Tanmayi's To-Do-List</b></h2>
 </div>
 
 <a name="readme-top"></a>
@@ -27,7 +27,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 To Do List <a name="about-project"></a>
-**To Do List** is a working webpage with more user interactions using the JavaScript, mainly JavaScript Objects and Classes where we can add new lists to the collection of data and display them in the webpage with a added feature, remove feature and drag feature.
+**To Do List** is a working webpage with more user interactions using JavaScript, mainly JavaScript Objects and Classes where we can add new lists to the collection of data and display them in the webpage with an added feature, remove feature and drag feature.
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 <details>
@@ -49,7 +49,7 @@
 
 - **Adding a new To-Do task**
 
-- **Removing a existing To-Do Task**
+- **Removing an existing To-Do Task**
 
 - **Displaying the existing tasks from LocalStorage**
 
@@ -69,7 +69,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-In this To-do-List project, a simple HTML page that displays list of To Do tasks is built. This web page uses webpack and served by a webpack dev server.
+In this To-do-List project, a simple HTML page that displays the list of To-Do tasks is built. This web page uses webpack and served by a webpack dev server.
 To get a local copy up and running, follow these steps.
 ### Prerequisites
 
@@ -102,7 +102,7 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-To run the project, if you are using a Code Editor make use of live server.
+To run the project, if you are using a Code Editor make use of a live server.
 If you are working with webpack you can run the local host.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,9 +126,9 @@ If you are working with webpack you can run the local host.
 
 - [ ] **Can Update/Edit a To-Do task**
 
-- [ ] **Clearing all the completed tasks on clicking the clear-all-checked button**
+- [ ] **Clearing all the completed tasks by clicking the clear-all-checked button**
 
-- [ ] **Adding a drag event to a task and reording the tasks in the array**
+- [ ] **Adding a drag event to a task and re-ording the tasks in the array**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +137,7 @@ If you are working with webpack you can run the local host.
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the github page.
+Feel free to check the GitHub page.
 
 Contributors for this project:
 
@@ -148,7 +148,7 @@ Contributors for this project:
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a star.
+If you like this project give it a star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
