@@ -47,10 +47,6 @@ In this To-do-List project, a simple HTML page that displays list of To Do tasks
 
 - **Removing a existing To-Do Task**
 
-- **Clearing all the completed tasks on clicking the clear-all-checked button**
-
-- **Can Update/Edit a To-Do task**
-
 - **Displaying the existing tasks from LocalStorage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,7 +108,13 @@ If you are working with webpack you can run the local host.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Upcoming Project features**
+- [ ] **Deployment of the TO-DO list Webpage**
+
+- [ ] **Can Update/Edit a To-Do task**
+
+- [ ] **Clearing all the completed tasks on clicking the clear-all-checked button**
+
+- [ ] **Adding a drag event to a task and reording the tasks in the array**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
