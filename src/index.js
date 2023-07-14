@@ -162,7 +162,7 @@ addlistdiv.addEventListener('click', (e) => {
   e.preventDefault();
 
   addiconbutton.addEventListener('click', () => {
-    if(addlist.value !== '') {
+    if (addlist.value !== '') {
       addlistfun(addlist.value);
       addlist.value = '';
     }
