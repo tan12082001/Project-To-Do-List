@@ -5,6 +5,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -45,6 +46,16 @@
 - **Removing a existing To-Do Task**
 
 - **Displaying the existing tasks from LocalStorage**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo
+
+ <a name="live-demo"></a>
+
+- [Today To-Do-List](https://tan12082001.github.io/Project-To-Do-List/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
