@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import './style.css';
 import reIcon from './Refresh_icon.png';
 import tdIcon from './trash-outline.svg';
