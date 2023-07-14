@@ -10,11 +10,12 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 16% 0;
 }
 
 main {
@@ -43,11 +44,13 @@ main {
   width: 100%;
   padding: 12px;
   border-bottom: 1px solid var(--bottom-border-color);
+  display: flex;
+  align-items: center;
 }
 
 .list-adding:hover {
   background: #e4e4ff;
-  border: 1px solid #f4f5cf;
+  border: 1px solid #86f91f;
 }
 
 #add-new-list {
@@ -63,6 +66,22 @@ main {
   font-style: italic;
 }
 
+.addbutton {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.addicon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.addicon:hover {
+  transform: scale(1.2);
+}
+
 ul#to-do-list {
   width: 100%;
   display: flex;
@@ -76,6 +95,11 @@ li.each-task {
   justify-content: space-between;
   padding: 12px;
   border-bottom: 1px solid var(--bottom-border-color);
+}
+
+.each-task:hover {
+  background: #d0f5cf;
+  transform: translateY(-2px);
 }
 
 .check-tag {
