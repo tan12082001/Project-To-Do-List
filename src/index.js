@@ -1,6 +1,7 @@
 import './style.css';
 import reIcon from './Refresh_icon.png';
 import tdIcon from './trash-outline.svg';
+import adIcon from './add-circle-outline.svg';
 
 const inHead = document.querySelector('.div-heading');
 const ulList = document.getElementById('to-do-list');
@@ -20,7 +21,19 @@ const addlist = document.createElement('input');
 addlist.setAttribute('type', 'text');
 addlist.setAttribute('placeholder', 'Add to you list ...');
 addlist.setAttribute('id', 'add-new-list');
+
+const addiconbutton = document.createElement('button');
+addiconbutton.type = 'button';
+addiconbutton.className = 'addbutton';
+
+const addicon = new Image();
+addicon.src = adIcon;
+addicon.setAttribute('alt', 'addicon');
+addicon.className = 'addicon';
+
+addiconbutton.appendChild(addicon);
 addlistdiv.appendChild(addlist);
+addlistdiv.appendChild(addiconbutton);
 
 // Array of objects (empty at start)
 let tasks = JSON.parse(localStorage.getItem('ulList')) || [];
@@ -147,10 +160,13 @@ function addlistfun(val) {
 // Event to add the inputed task to the array and to display.
 addlistdiv.addEventListener('click', (e) => {
   e.preventDefault();
-  if (addlist.value !== '') {
-    addlistfun(addlist.value);
-    addlist.value = '';
-  }
+
+  addiconbutton.addEventListener('click', () => {
+    if(addlist.value !== '') {
+      addlistfun(addlist.value);
+      addlist.value = '';
+    }
+  });
 });
 
 // function to display the existing array of tasks in localStorage.
