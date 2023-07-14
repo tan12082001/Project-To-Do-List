@@ -2,7 +2,7 @@ import './style.css';
 import reIcon from './Refresh_icon.png';
 import tdIcon from './trash-outline.svg';
 import adIcon from './add-circle-outline.svg';
-import checker from '../checkboxChecker.js';
+import checker from './checkboxChecker.js';
 
 const inHead = document.querySelector('.div-heading');
 const ulList = document.getElementById('to-do-list');
