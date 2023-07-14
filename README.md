@@ -43,6 +43,16 @@ In this To-do-List project, a simple HTML page that displays list of To Do tasks
 
 - **Responsive Web design**
 
+- **Adding a new To-Do task**
+
+- **Removing a existing To-Do Task**
+
+- **Clearing all the completed tasks on clicking the clear-all-checked button**
+
+- **Can Update/Edit a To-Do task**
+
+- **Displaying the existing tasks from LocalStorage**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
