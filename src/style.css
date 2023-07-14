@@ -26,6 +26,17 @@ main {
   box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
 }
 
+.ifempty {
+  display: flex;
+  font-style: italic;
+  color: #f30d0d;
+  padding: 4px;
+}
+
+.smiley {
+  font-style: normal;
+}
+
 .div-heading {
   display: flex;
   width: 100%;
@@ -98,8 +109,7 @@ li.each-task {
 }
 
 .each-task:hover {
-  background: #d0f5cf;
-  transform: translateY(-2px);
+  background-color: #c6edfd;
 }
 
 .check-tag {
@@ -149,4 +159,10 @@ input.task-desc {
   padding: 17px;
   justify-content: center;
   background: #f1f1f4;
+  border: none;
+  outline: none;
+}
+
+.clear-all:hover {
+  background-color: #a7e76f;
 }

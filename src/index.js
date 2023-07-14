@@ -2,9 +2,12 @@ import './style.css';
 import reIcon from './Refresh_icon.png';
 import tdIcon from './trash-outline.svg';
 import adIcon from './add-circle-outline.svg';
+import checker from './checkboxChecker.js';
 
 const inHead = document.querySelector('.div-heading');
 const ulList = document.getElementById('to-do-list');
+const clearall = document.querySelector('.clear-all');
+const ifempty = document.querySelector('.ifempty');
 
 // adding imported image for the app heading
 const reicon = new Image();
@@ -122,6 +125,7 @@ class Create {
 
     tbox.addEventListener('blur', () => {
       tbox.setAttribute('disabled', '');
+      eachtask.style.background = '#eff9fd';
       localStorage.setItem('todolist', JSON.stringify(tasks));
     });
 
@@ -177,8 +181,40 @@ function displaylist() {
       const newtask = tasks[i];
       const n = new Create(newtask);
       const { eachtask } = n.createtodo();
+      if (newtask.complete) {
+        eachtask.classList.add('checked');
+        eachtask.style.background = '#f4f5Cf';
+        eachtask.style.opacity = '0.5';
+      } else {
+        eachtask.classList.remove('checked');
+        eachtask.style.background = 'none';
+        eachtask.style.opacity = '1';
+      }
       ulList.appendChild(eachtask);
     }
   }
 }
 document.addEventListener('DOMContentLoaded', displaylist());
+
+// Method to clear the checked
+const clearchecked = () => {
+  tasks = tasks.filter(checker);
+  setindex();
+  localStorage.setItem('todolist', JSON.stringify(tasks));
+  ulList.innerHTML = '';
+  displaylist();
+};
+
+clearall.addEventListener('click', clearchecked);
+
+addiconbutton.addEventListener('click', () => {
+  if (addlist.value === '') {
+    ifempty.innerHTML = `
+      <p>Enter a task to add in the list for today</p>
+      <span class='smiley'>&#128512;</span>
+    `;
+    setTimeout(() => {
+      ifempty.innerHTML = '';
+    }, 4000);
+  }
+});
