@@ -15,8 +15,8 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -71,6 +71,7 @@
 
 In this To-do-List project, a simple HTML page that displays the list of To-Do tasks is built. This web page uses webpack and served by a webpack dev server.
 To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
 In order to run this project you need:
@@ -78,18 +79,8 @@ In order to run this project you need:
  Linters
 
 ```sh
- npm init -y 
- npm install --save-dev hint@7.x
- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-
-Webpack
-
-```sh
- npm install webpack webpack-cli --save-dev
- npm install --save-dev style-loader css-loader
- npm install --save-dev html-webpack-plugin
- npm install --save-dev webpack-dev-server
+ cd Project-To-Do-List
+ npm install
 ```
 
 ### Setup
@@ -103,7 +94,20 @@ Clone this repository to your desired folder:
 ### Usage
 
 To run the project, if you are using a Code Editor make use of a live server.
-If you are working with webpack you can run the local host.
+If you are working with webpack you can run the local host with the following command.
+
+```sh
+  npm start
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+  gh-pages
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +132,7 @@ If you are working with webpack you can run the local host.
 
 - [ ] **Clearing all the completed tasks by clicking the clear-all-checked button**
 
-- [ ] **Adding a drag event to a task and re-ording the tasks in the array**
+- [ ] **Adding a drag event to a task and re-ordering the tasks in the array**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,9 +142,6 @@ If you are working with webpack you can run the local host.
 
 Contributions, issues, and feature requests are welcome!
 Feel free to check the GitHub page.
-
-Contributors for this project:
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +156,7 @@ If you like this project give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse for providing the required lessons and tutorials for successfully completing the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
